@@ -180,7 +180,7 @@ export default function Home() {
               <p className="text-blue-600 text-xs font-bold uppercase tracking-[0.2em] mb-4">Leadership</p>
               <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">Guided by Experience</h2>
               <p className="text-xl font-semibold text-slate-900 mb-1">Mr. Vijay AJ</p>
-              <p className="text-blue-600 font-semibold text-sm mb-6 uppercase tracking-wider">Proprietor</p>
+              <p className="text-blue-600 font-semibold text-sm mb-6 uppercase tracking-wider">Managing Director</p>
               <p className="text-slate-600 text-lg leading-relaxed border-l-4 border-blue-400 pl-6">
                 Mr. Vijay AJ oversees the operations of Accurate Medical Service and provides leadership and direction to the organization. His domain knowledge, decision-making, dedication and commitment to ethical business practices have contributed to the development of the company.
               </p>
