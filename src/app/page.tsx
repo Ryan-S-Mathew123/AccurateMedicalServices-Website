@@ -195,7 +195,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] [background-size:20px_20px] opacity-40" />
                 <div className="relative z-10 p-6 bg-white/85 backdrop-blur w-full border-t border-slate-200">
                   <p className="font-bold text-slate-900">Mr. Vijay AJ</p>
-                  <p className="text-sm text-slate-500">Proprietor, Accurate Medical Service</p>
+                  <p className="text-sm text-slate-500">Managing Director, Accurate Medical Service</p>
                 </div>
               </div>
             </motion.div>

@@ -96,13 +96,13 @@ export default function AboutPage() {
               <div className="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] [background-size:20px_20px] opacity-50" />
               <div className="relative z-10 p-5 bg-white/85 backdrop-blur w-full border-t border-slate-200">
                 <p className="font-bold text-slate-900">Mr. Vijay AJ</p>
-                <p className="text-sm text-slate-500">Proprietor</p>
+                <p className="text-sm text-slate-500">Managing Director</p>
               </div>
             </div>
 
             <div>
               <p className="text-2xl font-extrabold text-slate-900 mb-1">Mr. Vijay AJ</p>
-              <p className="text-blue-600 font-semibold text-sm mb-6 uppercase tracking-wider">Proprietor</p>
+              <p className="text-blue-600 font-semibold text-sm mb-6 uppercase tracking-wider">Managing Director</p>
               <p className="text-slate-600 text-lg leading-relaxed border-l-4 border-blue-400 pl-6">
                 Mr. Vijay AJ oversees the operations of Accurate Medical Service and provides leadership and direction to the organization. His domain knowledge, decision-making, dedication and commitment to ethical business practices have contributed to the development of the company.
               </p>
@@ -111,8 +111,8 @@ export default function AboutPage() {
                 <div className="space-y-2 text-sm text-slate-700">
                   <p><span className="font-semibold">Founded:</span> 2008</p>
                   <p><span className="font-semibold">HQ:</span> Bengaluru, Karnataka</p>
-                  <p><span className="font-semibold">Serving:</span> India · Qatar · Mauritius · Philippines</p>
-                  <p><span className="font-semibold">Certification:</span> LSE Code Certified</p>
+                  <p><span className="font-semibold">Served:</span> <strong>Worldwide</strong></p>
+                  <p><span className="font-semibold">Certification:</span> ISE Code Certified</p>
                 </div>
               </div>
             </div>

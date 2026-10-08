@@ -17,7 +17,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-sm leading-relaxed text-slate-400 mt-4 max-w-xs">
-              Medical equipment and accessories supplier based in Bengaluru, Karnataka. Established in 2008 to provide quality products and dependable service across India, Qatar, Mauritius, and the Philippines. LSE Code Certified.
+              Medical equipment and accessories supplier based in Bengaluru, Karnataka. Established in 2008 to provide quality products and dependable service across India, Qatar, Mauritius, and the Philippines. ISE Code Certified.
             </p>
           </div>
 
