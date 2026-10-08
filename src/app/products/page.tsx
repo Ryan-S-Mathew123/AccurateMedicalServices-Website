@@ -144,7 +144,7 @@ export default function ProductsPage() {
                         />
                       </div>
                       <div className="p-5 flex flex-col flex-grow">
-                        <div className="text-xs font-semibold text-teal-700 mb-2 uppercase tracking-wider">
+                        <div className="text-xs font-semibold text-blue-700 mb-2 uppercase tracking-wider">
                           {product.category}
                         </div>
                         <h3 className="text-lg font-bold text-slate-900 mb-1 group-hover:text-blue-900 transition-colors line-clamp-2">

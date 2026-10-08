@@ -29,10 +29,8 @@ export default async function ProductDetailPage({
           <nav className="flex text-sm text-slate-500 font-medium">
             <Link href="/products" className="hover:text-blue-900 flex items-center">
               <ArrowLeft className="w-4 h-4 mr-2" />
-              Products
+              Back to Products
             </Link>
-            <span className="mx-2">/</span>
-            <span className="text-slate-400">{product.category}</span>
           </nav>
         </div>
       </div>
@@ -52,9 +50,6 @@ export default async function ProductDetailPage({
 
               {/* Product Info */}
               <div className="p-8 lg:p-12 flex flex-col">
-                <div className="inline-flex items-center text-xs font-semibold tracking-widest text-teal-700 uppercase mb-4">
-                  {product.category}
-                </div>
                 <h1 className="text-3xl md:text-4xl font-bold text-slate-900 mb-2">
                   {product.name}
                 </h1>
@@ -71,9 +66,11 @@ export default async function ProductDetailPage({
                     Specifications
                   </h3>
                   <ul className="space-y-3">
-                    {Object.entries(product.specifications).map(([key, value]) => (
+                    {Object.entries(product.specifications)
+                      .filter(([key]) => key.toLowerCase() !== "brand" && key.toLowerCase() !== "category")
+                      .map(([key, value]) => (
                       <li key={key} className="flex items-start">
-                        <Check className="w-5 h-5 text-teal-600 mr-3 shrink-0 mt-0.5" />
+                        <Check className="w-5 h-5 text-blue-600 mr-3 shrink-0 mt-0.5" />
                         <div>
                           <span className="font-semibold text-slate-900">{key}:</span>{" "}
                           <span className="text-slate-600">{value}</span>

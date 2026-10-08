@@ -25,7 +25,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 opacity-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/front-page-bg.png')" }} />
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-3xl">
-            <p className="text-teal-400 text-xs font-bold uppercase tracking-[0.2em] mb-4">Est. 2008 · Bengaluru</p>
+            <p className="text-blue-400 text-xs font-bold uppercase tracking-[0.2em] mb-4">Est. 2008 · Bengaluru</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-[1.1]">
               About Accurate<br />Medical Service
             </h1>
@@ -49,7 +49,7 @@ export default function AboutPage() {
 
             <div className="lg:col-span-7 space-y-10">
               <div>
-                <p className="text-teal-600 text-xs font-bold uppercase tracking-[0.2em] mb-3">Our Story</p>
+                <p className="text-blue-600 text-xs font-bold uppercase tracking-[0.2em] mb-3">Our Story</p>
                 <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">Who We Are</h2>
                 <div className="space-y-5 text-slate-600 text-lg leading-relaxed">
                   <p>
@@ -65,7 +65,7 @@ export default function AboutPage() {
               </div>
 
               <div className="grid sm:grid-cols-2 gap-8 pt-8 border-t border-slate-100">
-                <div className="pl-4 border-l-4 border-teal-400">
+                <div className="pl-4 border-l-4 border-blue-400">
                   <h3 className="text-lg font-bold text-slate-900 mb-2">Our Vision</h3>
                   <p className="text-slate-500 leading-relaxed text-sm">
                     To be recognized as a leading medical supplier company while developing and supplying complementary products and services that add significant value to customers.
@@ -87,7 +87,7 @@ export default function AboutPage() {
       <section className="mt-20 lg:mt-28 pt-20 pb-24 bg-slate-50 border-t border-slate-200">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
-            <p className="text-teal-600 text-xs font-bold uppercase tracking-[0.2em] mb-3">Leadership</p>
+            <p className="text-blue-600 text-xs font-bold uppercase tracking-[0.2em] mb-3">Leadership</p>
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">Guided by Experience</h2>
           </div>
 
@@ -102,8 +102,8 @@ export default function AboutPage() {
 
             <div>
               <p className="text-2xl font-extrabold text-slate-900 mb-1">Mr. Vijay AJ</p>
-              <p className="text-teal-600 font-semibold text-sm mb-6 uppercase tracking-wider">Proprietor</p>
-              <p className="text-slate-600 text-lg leading-relaxed border-l-4 border-teal-400 pl-6">
+              <p className="text-blue-600 font-semibold text-sm mb-6 uppercase tracking-wider">Proprietor</p>
+              <p className="text-slate-600 text-lg leading-relaxed border-l-4 border-blue-400 pl-6">
                 Mr. Vijay AJ oversees the operations of Accurate Medical Service and provides leadership and direction to the organization. His domain knowledge, decision-making, dedication and commitment to ethical business practices have contributed to the development of the company.
               </p>
               <div className="mt-8 bg-white rounded-xl p-5 border border-slate-100 shadow-sm">

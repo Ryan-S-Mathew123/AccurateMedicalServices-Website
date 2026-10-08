@@ -24,7 +24,7 @@ function ContactForm() {
   if (submitted) {
     return (
       <div className="text-center py-16">
-        <div className="w-20 h-20 bg-teal-50 text-teal-600 rounded-full flex items-center justify-center mx-auto mb-6">
+        <div className="w-20 h-20 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
           <CheckCircle2 className="w-10 h-10" />
         </div>
         <h2 className="text-2xl font-bold text-slate-900 mb-4">Thank you. Your enquiry has been recorded.</h2>

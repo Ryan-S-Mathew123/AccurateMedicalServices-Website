@@ -66,14 +66,8 @@ export function Header() {
           ))}
         </nav>
 
-        {/* CTA + Mobile toggle */}
+        {/* Mobile toggle */}
         <div className="flex items-center gap-3">
-          <Link
-            href="/contact"
-            className="hidden md:inline-flex items-center justify-center px-7 py-3 text-base font-bold text-white bg-blue-900 hover:bg-blue-800 active:scale-95 rounded-lg transition-all duration-200 shadow-md tracking-wide"
-          >
-            Send an Enquiry
-          </Link>
           <button
             type="button"
             className="md:hidden p-2 rounded-md text-slate-700 hover:bg-slate-100 transition-colors"
@@ -104,15 +98,6 @@ export function Header() {
                 {item.name}
               </Link>
             ))}
-            <div className="pt-4 px-3">
-              <Link
-                href="/contact"
-                className="flex items-center justify-center w-full px-5 py-3 text-base font-semibold text-white bg-slate-900 hover:bg-slate-800 rounded-md transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Send an Enquiry
-              </Link>
-            </div>
           </div>
         </div>
       )}

@@ -33,7 +33,7 @@ export function Footer() {
                     href={`/${item.toLowerCase()}`}
                     className="text-sm hover:text-white transition-colors flex items-center group"
                   >
-                    <ArrowRight className="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all text-teal-500" />
+                    <ArrowRight className="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all text-blue-500" />
                     {item}
                   </Link>
                 </li>
@@ -59,7 +59,7 @@ export function Footer() {
               ))}
               {categories.length > 6 && (
                 <li>
-                  <Link href="/products" className="text-sm text-teal-500 hover:text-teal-400 font-medium">
+                  <Link href="/products" className="text-sm text-blue-500 hover:text-blue-400 font-medium">
                     View All Categories &rarr;
                   </Link>
                 </li>

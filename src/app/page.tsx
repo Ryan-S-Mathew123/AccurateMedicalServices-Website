@@ -31,9 +31,9 @@ export default function Home() {
             <motion.p
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0 }}
-              className="text-teal-400 text-sm font-bold tracking-[0.2em] uppercase mb-6"
+              className="text-blue-400 text-sm font-bold tracking-[0.2em] uppercase mb-6"
             >
-              Established 2008 · Bengaluru, India · LSE Code Certified
+              Established 2008 · Bengaluru, India · ISE Code Certified
             </motion.p>
 
             <motion.h1
@@ -42,8 +42,8 @@ export default function Home() {
               className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.05] mb-6"
             >
               Medical Supplies.<br />
-              <span className="text-teal-400">Built Around</span><br />
-              Reliability.
+              <span className="text-white">Built Around</span><br />
+              <span className="text-blue-300">Reliability.</span>
             </motion.h1>
 
             <motion.p
@@ -61,7 +61,7 @@ export default function Home() {
             >
               <Link
                 href="/products"
-                className="inline-flex items-center justify-center gap-3 px-9 py-4 text-base font-bold text-white bg-teal-600 hover:bg-teal-500 active:scale-95 rounded-xl transition-all duration-200 shadow-xl shadow-teal-900/30 tracking-wide"
+                className="inline-flex items-center justify-center gap-3 px-9 py-4 text-base font-bold text-white bg-blue-600 hover:bg-blue-500 active:scale-95 rounded-xl transition-all duration-200 shadow-xl shadow-blue-900/30 tracking-wide"
               >
                 Explore Products
                 <ArrowRight className="w-5 h-5" />
@@ -138,7 +138,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="max-w-2xl mx-auto text-center mb-16"
           >
-            <p className="text-teal-600 text-xs font-bold uppercase tracking-[0.2em] mb-3">Our Principles</p>
+            <p className="text-blue-600 text-xs font-bold uppercase tracking-[0.2em] mb-3">Our Principles</p>
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">Why Accurate Medical Service</h2>
           </motion.div>
 
@@ -177,11 +177,11 @@ export default function Home() {
               initial={{ opacity: 0, x: -24 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
               transition={{ duration: 0.65 }}
             >
-              <p className="text-teal-600 text-xs font-bold uppercase tracking-[0.2em] mb-4">Leadership</p>
+              <p className="text-blue-600 text-xs font-bold uppercase tracking-[0.2em] mb-4">Leadership</p>
               <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">Guided by Experience</h2>
               <p className="text-xl font-semibold text-slate-900 mb-1">Mr. Vijay AJ</p>
-              <p className="text-teal-600 font-semibold text-sm mb-6 uppercase tracking-wider">Proprietor</p>
-              <p className="text-slate-600 text-lg leading-relaxed border-l-4 border-teal-400 pl-6">
+              <p className="text-blue-600 font-semibold text-sm mb-6 uppercase tracking-wider">Proprietor</p>
+              <p className="text-slate-600 text-lg leading-relaxed border-l-4 border-blue-400 pl-6">
                 Mr. Vijay AJ oversees the operations of Accurate Medical Service and provides leadership and direction to the organization. His domain knowledge, decision-making, dedication and commitment to ethical business practices have contributed to the development of the company.
               </p>
             </motion.div>
@@ -212,9 +212,9 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <p className="text-teal-300 text-xs font-bold uppercase tracking-[0.2em] mb-3">Our Reach</p>
+            <p className="text-blue-300 text-xs font-bold uppercase tracking-[0.2em] mb-3">Our Reach</p>
             <h2 className="text-3xl md:text-4xl font-extrabold mb-4">Delivering Beyond Borders</h2>
-            <p className="text-slate-300 max-w-xl mx-auto">Serving healthcare professionals across India and internationally.</p>
+            <p className="text-slate-300 max-w-xl mx-auto">Served healthcare professionals across India and internationally.</p>
           </motion.div>
 
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
@@ -224,9 +224,9 @@ export default function Home() {
                 initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
                 transition={{ duration: 0.45, delay: i * 0.1 }}
                 whileHover={{ scale: 1.06, transition: { duration: 0.2 } }}
-                className="flex items-center gap-2 px-6 py-3 rounded-full border border-white/20 bg-white/10 text-white font-semibold backdrop-blur-sm cursor-default"
+                className="flex items-center gap-2 px-6 py-3 rounded-full border border-white/20 bg-white/10 text-white font-bold backdrop-blur-sm cursor-default"
               >
-                <Globe className="w-4 h-4 text-teal-300" />
+                <Globe className="w-4 h-4 text-blue-300" />
                 {country}
               </motion.div>
             ))}
@@ -242,7 +242,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="max-w-3xl mx-auto text-center mb-16"
           >
-            <p className="text-teal-600 text-xs font-bold uppercase tracking-[0.2em] mb-3">Our Commitment</p>
+            <p className="text-blue-600 text-xs font-bold uppercase tracking-[0.2em] mb-3">Our Commitment</p>
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-5">
               Quality Is Not an Add-On.<br />
               <span className="text-blue-900">It Is the Standard.</span>
@@ -250,9 +250,9 @@ export default function Home() {
             <p className="text-lg text-slate-500 leading-relaxed mb-6">
               The company operates around trust, quality and reliability. Every product in our catalogue is chosen to support better healthcare delivery.
             </p>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-teal-200 bg-teal-50 text-sm font-semibold text-teal-800">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-200 bg-blue-50 text-sm font-semibold text-blue-800">
               <ShieldCheck className="w-4 h-4" />
-              LSE CODE CERTIFIED
+              ISE CODE CERTIFIED
             </div>
           </motion.div>
 
